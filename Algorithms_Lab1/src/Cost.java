@@ -3,21 +3,18 @@
  * This object helps you to return 4 fields at once.
  * The meaning of cost is described in the assignment.
  */
-
-package StableMatching;
-
 public class Cost {
     private int indexOfProfessor;
     private int indexOfStudent;
     private int costToProfessor;
-    private int costToStudent;
+    private int costToStuent;
 
-    public Cost(int indexOfProfessor, int indexOfStudent, int costToProfessor, int costToStudent) {
+    public Cost(int indexOfProfessor, int indexOfStudent, int costToProfessor, int costToStuent) {
 
         this.indexOfProfessor = indexOfProfessor;
         this.indexOfStudent = indexOfStudent;
         this.costToProfessor = costToProfessor;
-        this.costToStudent = costToStudent;
+        this.costToStuent = costToStuent;
     }
 
     public int getIndexOfProfessor() {
@@ -44,11 +41,11 @@ public class Cost {
         this.costToProfessor = costToProfessor;
     }
 
-    public int getCostToStudent() {
-        return costToStudent;
+    public int getCostToStuent() {
+        return costToStuent;
     }
 
-    public void setCostToStudent(int costToStudent) {
-        this.costToStudent = costToStudent;
+    public void setCostToStuent(int costToStuent) {
+        this.costToStuent = costToStuent;
     }
 }

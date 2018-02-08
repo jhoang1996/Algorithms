@@ -1,4 +1,3 @@
-package StableMatching;
 import java.util.ArrayList;
 
 /**
